@@ -14,6 +14,17 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+/* Notes to future self
+-installed Windows 8.1 SDK
+All configurations:
+-Project Properties-->C/C++-->General-->Additional Include Directories C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\
+Debug configuration:
+-Project Properties-->Linker-->Input-->Additional Dependencies add C:\Program Files (x86)\Windows Kits\10\Lib\10.0.15063.0\ucrt\x86\ucrtd.lib
+Release configuration:
+-Project Properties-->Linker-->Input-->Additional Dependencies add C:\Program Files (x86)\Windows Kits\10\Lib\10.0.15063.0\ucrt\x86\ucrt.lib
+
+should build fine*/
+
 #include <chrono>
 #include <cstdlib>
 #include <fstream>
