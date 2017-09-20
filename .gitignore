@@ -1,6 +1,9 @@
-/laplock.VC.db
-/laplock.VC.VC.opendb
 /.vs
+/bin/Debug
 /Debug
 /Release
-/laplock.vcxproj.user
+/x64
+/laplock.vcxproj.
+.iobj
+.ipdb
+.pdb

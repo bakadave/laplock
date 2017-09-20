@@ -14,16 +14,25 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/* Notes to future self
+/* Notes to future self to make it compile:
+
 -installed Windows 8.1 SDK
+-on laplock project:
 All configurations:
 -Project Properties-->C/C++-->General-->Additional Include Directories C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\
+Win32:
 Debug configuration:
 -Project Properties-->Linker-->Input-->Additional Dependencies add C:\Program Files (x86)\Windows Kits\10\Lib\10.0.15063.0\ucrt\x86\ucrtd.lib
 Release configuration:
 -Project Properties-->Linker-->Input-->Additional Dependencies add C:\Program Files (x86)\Windows Kits\10\Lib\10.0.15063.0\ucrt\x86\ucrt.lib
+X64:
+Debug configuration:
+-Project Properties-->Linker-->Input-->Additional Dependencies add C:\Program Files (x86)\Windows Kits\10\Lib\10.0.15063.0\ucrt\x64\ucrtd.lib
+Release configuration:
+-Project Properties-->Linker-->Input-->Additional Dependencies add C:\Program Files (x86)\Windows Kits\10\Lib\10.0.15063.0\ucrt\x64\ucrt.lib
 
-should build fine*/
+should build fine
+*/
 
 #include <chrono>
 #include <cstdlib>
